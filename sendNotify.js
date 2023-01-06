@@ -199,7 +199,7 @@ async function sendNotify(
   text,
   desp,
   params = {},
-  author= '\n\n本通知 By HY-jingyi\n通知时间: ' + GetDateTime(new Date()),
+  author= '\n\n本通知 By HY-隔壁网\n通知时间: ' + GetDateTime(new Date()),
 ) {
   //提供6种通知
   desp += author; //增加作者信息，防止被贩卖等
